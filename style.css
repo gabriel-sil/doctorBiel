@@ -1,0 +1,24 @@
+/* GLOBAL */
+@import url(./css/global/reset.css);
+@import url(./css/global/reset-manul.css);
+@import url(./css/global/buttons.css);
+@import url(./css/global/color.css);
+@import url(./css/global/fonts.css);
+
+/* HEADER */
+@import url(./css/header/header.css);
+
+/* INTRODUÇÃO */
+@import url(./css/introducao/introducao.css);
+
+/* SERVICOS */
+@import url(./css/servicos/servicos.css);
+
+/* SOBRE */
+@import url(./css/sobre-nos/sobre.css);
+
+/* SOBRE */
+@import url(./css/contato/contato.css);
+
+/* SOBRE */
+@import url(./css/footer/footer.css);

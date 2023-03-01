@@ -1,0 +1,48 @@
+.contato-bg {
+  background-color: #ffffff;
+}
+
+.contato {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(auto, 500px));
+  justify-content: center;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  align-items: center;
+}
+
+.conteudo-contato h1{
+  max-width: 14ch;
+  margin-bottom: 40px;
+}
+
+.info-contato:nth-child(2) {
+  margin-bottom: 16px;
+}
+
+.info-contato:nth-child(3) {
+  margin-bottom: 40px;
+}
+
+.info-contato, .info-contato a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: .2s;
+}
+
+.info-contato a:nth-child(2):hover {
+  color: var(--cor-1);
+}
+
+/* */
+@media (max-width: 780px) {
+  .contato {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .img-contato {
+    margin-top: 20 px;
+  }
+}

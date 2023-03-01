@@ -1,0 +1,49 @@
+.font-1 {
+  font-size: 14px;
+}
+.font-2 {
+  font-size: 16px;
+}
+.font-3 {
+  font-size: 18px;
+}
+.font-4 {
+  font-size: 24px;
+}
+.font-5 {
+  font-size: 30px;
+}
+.font-6 {
+  font-size: 34px;
+}
+.font-7 {
+  font-size: 40px;
+}
+.font-8 {
+  font-size: 48px;
+}
+.font-9{
+  font-size: 52px;
+}
+.bold {
+  font-weight: bold;
+}
+
+.bold-cor {
+  font-weight: bold;
+  color: var(--cor-1);
+}
+
+.regular {
+  font-weight: normal;
+}
+
+strong {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  color: #00856F;
+  text-align: center;
+  display: block;
+}

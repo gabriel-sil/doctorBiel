@@ -1,0 +1,45 @@
+.sobre-bg {
+  background-color: var(--cor-4);
+}
+
+.sobre {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  display: grid;
+  gap: 67px;
+  grid-template-columns: auto 1fr;
+
+}
+
+.conteudo-sobre p {
+  line-height: 150%;
+  margin-top: 24px;
+  max-width: 51ch;
+  color: #495057;
+}
+
+.conteudo-sobre h1 {
+  line-height: 52px;
+  max-width: 18ch;
+}
+
+.conteudo-sobre strong {
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 780px) {
+  .sobre {
+    grid-template-columns: 1fr;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .img-sobre {
+    grid-row: 2;
+    margin: 0 auto;
+  }
+  .conteudo-sobre p {
+    grid-column: 1;
+
+  }
+}

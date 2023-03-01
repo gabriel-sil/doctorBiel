@@ -1,0 +1,36 @@
+.botao-1 {
+  font-family: 'DM Sans';
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px 24px;
+  background: #09937c;
+  border-radius: 40px;
+  transition: 0.2s;
+}
+.botao-1:hover {
+  background: #00453A;
+}
+.botao-2 {
+  display: inline-block;
+  padding: 10px 24px;
+  border: 1px solid #00856F;
+  border-radius: 40px;
+  color: #00856F;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+.botao-2:hover  {
+  color: #FFFFFF;
+  background: #00856F;
+}
+
